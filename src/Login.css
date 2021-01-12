@@ -1,19 +1,24 @@
 .login {
-  display: grid;
-  background-color: black;
-  height: 100vh;
-  place-items: center;
+    display: grid;
+    place-items: center; 
+    height: 100vh;
+    background-color: black;
 }
 
 .login > img {
-  height: 200px;
+    width: auto;
+    display: flex;
+    align-items: center;
+    object-fit: contain;
+
 }
 
 .login > a {
-  color: white;
-  text-decoration: none;
-  padding: 20px;
-  border-radius: 99px;
-  font-weight: 800;
-  background-color: #1db954;
+    padding: 20px;
+    border-radius: 99px;
+    background-color: #1db954;
+    font-weight: 700;
+    color: white;
+    text-decoration: solid;
+
 }

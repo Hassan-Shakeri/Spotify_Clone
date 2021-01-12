@@ -1,29 +1,48 @@
 .header {
-  display: flex;
-  justify-content: space-between;
-  margin-bottom: 30px;
-}
-
-.header__right {
-  display: flex;
-  align-items: center;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
 }
 
 .header__left {
-  flex: 0.5;
-  display: flex;
-  background-color: white;
-  padding: 10px;
-  border-radius: 30px;
-  color: gray;
-  align-items: center;
+    
+    flex: 0.5;
+    min-width: 70px;
+    height: 15px;
+    background-color: white;
+    color: grey;
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    margin-left: 5px;
+    margin-top: 5px;
 }
 
 .header__left > input {
-  border: none;
-  width: 100%;
+    border: none;
+    width: 100%;
+}
+
+.header__left > input:focus {
+    outline: 0;
+  }
+
+.header__right {
+    display: flex;
+    align-items: center;
+    margin-top: 5px;
+    margin-right: 5px;
+    
+
+
+}
+
+.header__right > .MuiAvatar-root {
+    height: 35px;
+    width: 35px;
 }
 
 .header__right > h4 {
-  margin-left: 10px;
+    margin-left: 10px;
 }
